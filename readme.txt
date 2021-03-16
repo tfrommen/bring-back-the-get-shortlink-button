@@ -1,9 +1,12 @@
 === Bring Back the Get Shortlink Button ===
 Contributors: tfrommen
 Tags: link, short, shortlink
-Requires at least: 0.71
-Tested up to: 4.4
-Stable tag: 1.1.0
+Requires at least: 4.4
+Tested up to: 5.7
+Requires PHP: 5.3
+Stable tag: 1.2.0
+License: GPL v3 or later
+License URI: https://www.gnu.org/licenses/gpl-3.0.txt
 
 This plugin brings back the Get Shortlink button, which is hidden by default since WordPress 4.4.
 
@@ -20,6 +23,9 @@ This plugin requires PHP 5.3.
 1. Find the _Get Shortlink_ button just where it was before WordPress 4.4.
 
 == Changelog ==
+
+= 1.2.0 =
+* Bump "Tested up to" header.
 
 = 1.1.0 =
 * WordPress.org release.

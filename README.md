@@ -11,6 +11,9 @@ As of WordPress 4.4, the _Get Shortlink_ button is hidden by default. This plugi
 
 ## Changelog
 
+### 1.2.0
+* Bump "Tested up to" header.
+
 ### 1.1.0
 * WordPress.org release.
 
