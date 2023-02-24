@@ -19,6 +19,7 @@
 
 	<!-- Exclude folders that don't contain PHP code. -->
 	<exclude-pattern>/.github/</exclude-pattern>
+	<exclude-pattern>/.wordpress-org/</exclude-pattern>
 
 	<!-- Check for PHP cross-version compatibility. -->
 	<rule ref="PHPCompatibilityWP" />
