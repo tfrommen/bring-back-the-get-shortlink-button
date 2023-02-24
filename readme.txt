@@ -27,9 +27,9 @@ This plugin requires PHP 7.0.
 == Changelog ==
 
 = 2.0.0 =
-* Add code quality tooling and config.
 * Add type declarations.
-* Require PHP 7.4 or higher.
+* Add code quality tooling and config.
+* **BREAKING:** Require PHP 7.4 or higher.
 * Bump "Tested up to" header.
 
 = 1.2.0 =

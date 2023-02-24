@@ -13,20 +13,3 @@ Please note that the button does not exist at all in a Block Editor context. It 
 1. Upload contents to the `/wp-content/plugins` directory on your web server.
 1. Activate the plugin through the _Plugins_ menu in WordPress.
 1. Find the _Get Shortlink_ button just where it was before WordPress 4.4.
-
-## Changelog
-
-### 2.0.0
-* Add code quality tooling and config.
-* Add type declarations.
-* Require PHP 7.4 or higher.
-* Bump "Tested up to" header.
-
-### 1.2.0
-* Bump "Tested up to" header.
-
-### 1.1.0
-* WordPress.org release.
-
-### 1.0.0
-* Initial release.
