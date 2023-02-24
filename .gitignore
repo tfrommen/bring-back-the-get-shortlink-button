@@ -1,0 +1,14 @@
+.env
+*.log
+
+# Exclude external libraries and builds.
+/vendor/
+/composer.lock
+
+# Exclude local files and folders.
+/phpcs.xml
+/phpunit.xml
+
+
+# Include .gitkeep files.
+!.gitkeep

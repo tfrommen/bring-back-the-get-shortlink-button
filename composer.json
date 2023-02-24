@@ -1,0 +1,26 @@
+{
+	"name": "tfrommen/bring-back-the-get-shortlink-button",
+	"description": "This plugin brings back the Get Shortlink button, which is hidden by default since WordPress 4.4.",
+	"type": "wordpress-plugin",
+	"license": "GPL-3.0-or-later",
+	"require": {
+		"php": ">=7.0"
+	},
+	"require-dev": {
+		"humanmade/coding-standards": "^1.2",
+		"phpcompatibility/phpcompatibility-wp": "^2.1"
+	},
+	"config": {
+		"allow-plugins": {
+			"dealerdirect/phpcodesniffer-composer-installer": true
+		},
+		"platform": {
+			"php": "8.0"
+		},
+		"sort-packages": true
+	},
+	"scripts": {
+		"lint": "phpcs .",
+		"test": "echo \"No tests yet. Skipping.\""
+	}
+}

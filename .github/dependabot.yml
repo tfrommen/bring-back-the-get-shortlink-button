@@ -1,0 +1,22 @@
+# To get started with Dependabot version updates, you'll need to specify which package ecosystems to update and how.
+#
+# Please see the documentation for all configuration options:
+# https://docs.github.com/en/code-security/dependabot/dependabot-version-updates/configuration-options-for-the-dependabot.yml-file
+
+version: 2
+
+updates:
+  # Enable version updates for Composer:
+  - package-ecosystem: "composer"
+    # Look for `composer.json` and `composer.lock` files in the `root` directory:
+    directory: "/"
+    # Create pull requests for updates (if any) once a day:
+    schedule:
+      interval: "daily"
+    # Always increase the version requirements for Composer:
+    versioning-strategy: increase
+    # Allow up to 25 open pull requests for Composer dependencies.
+    open-pull-requests-limit: 25
+    # Prefix all commit messages with "Composer":
+    commit-message:
+      prefix: "Composer"

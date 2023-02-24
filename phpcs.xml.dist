@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<ruleset name="tfrommen">
+	<description>PHP Coding Standards</description>
+
+	<!-- Set the PHP version to use for PHP_CodeSniffer to PHP 8.0. -->
+	<config name="php_version" value="80000" />
+
+	<!-- Set a minimum PHP version for PHPCompatibility. -->
+	<config name="testVersion" value="7.0-" />
+
+	<!-- Show sniff codes in all reports. -->
+	<arg value="s" />
+
+	<!-- Check PHP files only. -->
+	<arg name="extensions" value="php" />
+
+	<!-- Exclude external libraries and builds. -->
+	<exclude-pattern>/vendor/</exclude-pattern>
+
+	<!-- Exclude folders that don't contain PHP code. -->
+	<exclude-pattern>/.github/</exclude-pattern>
+
+	<!-- Check for PHP cross-version compatibility. -->
+	<rule ref="PHPCompatibilityWP" />
+
+	<!-- Use the Human Made coding standards. -->
+	<rule ref="HM-Minimum" />
+</ruleset>
