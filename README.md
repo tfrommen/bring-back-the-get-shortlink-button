@@ -19,7 +19,7 @@ Please note that the button does not exist at all in a Block Editor context. It 
 ### 2.0.0
 * Add code quality tooling and config.
 * Add type declarations.
-* Require PHP 7.0 or higher.
+* Require PHP 7.4 or higher.
 * Bump "Tested up to" header.
 
 ### 1.2.0

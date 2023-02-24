@@ -3,7 +3,7 @@ Contributors: tfrommen
 Tags: link, short, shortlink
 Requires at least: 4.4
 Tested up to: 6.1
-Requires PHP: 7.0
+Requires PHP: 7.4
 Stable tag: 2.0.0
 License: GPL v3 or later
 License URI: https://www.gnu.org/licenses/gpl-3.0.txt
@@ -29,7 +29,7 @@ This plugin requires PHP 7.0.
 = 2.0.0 =
 * Add code quality tooling and config.
 * Add type declarations.
-* Require PHP 7.0 or higher.
+* Require PHP 7.4 or higher.
 * Bump "Tested up to" header.
 
 = 1.2.0 =
