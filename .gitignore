@@ -6,9 +6,9 @@
 /composer.lock
 
 # Exclude local files and folders.
+/.phpunit.result.cache
 /phpcs.xml
 /phpunit.xml
-
 
 # Include .gitkeep files.
 !.gitkeep

@@ -21,11 +21,32 @@
  * Text Domain:       bring-back-the-get-shortlink-button
  */
 
+namespace tfrommen\BringBackTheGetShortlinkButton;
+
 if ( ! function_exists( 'add_filter' ) ) {
 	return;
 }
 
-add_filter( 'get_shortlink', function ( string $shortlink ): string {
+/**
+ * Bootstrap the plugin.
+ *
+ * @return void
+ */
+function bootstrap(): void {
+
+	add_filter( 'get_shortlink', __NAMESPACE__ . '\\pass_through' );
+}
+
+/**
+ * Simple pass-through callback for the shortlink filter.
+ *
+ * @param string $shortlink Shortlink.
+ *
+ * @return string Shortlink.
+ */
+function pass_through( string $shortlink ): string {
 
 	return $shortlink;
-} );
+}
+
+add_action( 'plugins_loaded', __NAMESPACE__ . '\\bootstrap' );

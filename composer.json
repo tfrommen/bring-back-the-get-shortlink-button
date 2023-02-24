@@ -7,8 +7,15 @@
 		"php": ">=7.4"
 	},
 	"require-dev": {
+		"brain/monkey": "^2.6",
 		"humanmade/coding-standards": "^1.2",
-		"phpcompatibility/phpcompatibility-wp": "^2.1"
+		"phpcompatibility/phpcompatibility-wp": "^2.1",
+		"phpunit/phpunit": "^9.6"
+	},
+	"autoload-dev": {
+		"psr-4": {
+			"tfrommen\\BringBackTheGetShortlinkButton\\Tests\\Unit\\": "tests/unit/"
+		}
 	},
 	"config": {
 		"allow-plugins": {
@@ -21,6 +28,6 @@
 	},
 	"scripts": {
 		"lint": "phpcs .",
-		"test": "echo \"No tests yet. Skipping.\""
+		"test": "phpunit"
 	}
 }
