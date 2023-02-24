@@ -3,6 +3,8 @@
 > This plugin brings back the Get Shortlink button, which is hidden by default since WordPress 4.4.
 ---
 
+![Screenshot of the Classic Editor showing the Get Shortlink button](assets/banner-772x250.png)
+
 As of WordPress 4.4, the _Get Shortlink_ button is hidden by default. This plugin brings it back. Yay.
 
 Please note that the button does not exist at all in a Block Editor context. It will only show up when using the Classic Editor, for example, when editing a single attachment.
