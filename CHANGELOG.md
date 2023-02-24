@@ -22,6 +22,17 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 - 
 
+## [2.1.0](https://github.com/tfrommen/bring-back-the-get-shortlink-button/compare/v2.0.0...v2.1.0) - 2023-02-24
+
+### Added
+
+- Add unit tests.
+
+### Changed
+
+- Split main plugin file into multiple functions to allow for better testability.
+- Rename folder including WordPress.org assets. 
+
 ## [2.0.0](https://github.com/tfrommen/bring-back-the-get-shortlink-button/compare/v1.2.0...v2.0.0) - 2023-02-24
 
 ### Added

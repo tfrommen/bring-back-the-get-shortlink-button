@@ -4,7 +4,7 @@ Tags: link, short, shortlink
 Requires at least: 4.4
 Tested up to: 6.1
 Requires PHP: 7.4
-Stable tag: 2.0.0
+Stable tag: 2.1.0
 License: GPL v3 or later
 License URI: https://www.gnu.org/licenses/gpl-3.0.txt
 
@@ -26,6 +26,11 @@ This plugin requires PHP 7.0.
 
 == Changelog ==
 
+= 2.1.0 =
+* Add unit tests.
+* Split main plugin file into multiple functions to allow for better testability.
+* Rename folder including WordPress.org assets.
+
 = 2.0.0 =
 * Add type declarations.
 * Add code quality tooling and config.
@@ -36,7 +41,7 @@ This plugin requires PHP 7.0.
 * Bump "Tested up to" header.
 
 = 1.1.0 =
-* WordPress.org release.
+WordPress.org release.
 
 = 1.0.0 =
-* Initial release.
+Initial release.

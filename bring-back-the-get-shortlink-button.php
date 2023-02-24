@@ -11,7 +11,7 @@
  * Plugin Name:       Bring Back the Get Shortlink Button
  * Plugin URI:        https://wordpress.org/plugins/bring-back-the-get-shortlink-button/
  * Description:       This plugin brings back the Get Shortlink button, which is hidden by default since WordPress 4.4.
- * Version:           2.0.0
+ * Version:           2.1.0
  * Requires at least: 4.4
  * Requires PHP:      7.4
  * Author:            Thorsten Frommen
