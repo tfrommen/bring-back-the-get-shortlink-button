@@ -23,7 +23,7 @@
 
 namespace tfrommen\BringBackTheGetShortlinkButton;
 
-if ( ! function_exists( 'add_filter' ) ) {
+if ( ! function_exists( 'add_action' ) ) {
 	return;
 }
 
