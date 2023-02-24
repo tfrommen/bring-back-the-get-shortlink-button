@@ -1,5 +1,3 @@
-* text eol=lf
-
 /.github/ export-ignore
 /.wordpress-org/ export-ignore
 /.editorconfig export-ignore
