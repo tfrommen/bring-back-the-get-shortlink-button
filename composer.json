@@ -7,7 +7,7 @@
 		"php": ">=7.4"
 	},
 	"require-dev": {
-		"brain/monkey": "^2.6",
+		"brain/monkey": "^2.7",
 		"humanmade/coding-standards": "^1.2",
 		"phpcompatibility/phpcompatibility-wp": "^2.1",
 		"phpunit/phpunit": "^9.6"
